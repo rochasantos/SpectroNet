@@ -1,0 +1,90 @@
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment configuration files
+*.env
+*.ini
+*.yaml
+*.yml
+
+# Logs and debugging output
+*.log
+logs/
+*.out
+
+# Data files (raw and processed data)
+data/
+datasets/
+*.csv
+*.mat
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Machine learning and model files
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# PyTorch Lightning logs and cache
+lightning_logs/
+*.ckpt
+
+# TensorBoard log files
+runs/
+tensorboard/
+
+# Experiment tracking and logging files (e.g., WandB)
+wandb/
+wandb_summary.json
+
+# Build and distribution folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage reports and test outputs
+.coverage
+*.cover
+htmlcov/
+coverage/
+.pytest_cache/
+.cache
+
+# Mypy type-checking cache
+.mypy_cache/
+.dmypy.json
+.dmypy.json.1
+
+# Pylint, flake8, and other linting tools cache
+.pylint.d/
+flake8
+.cache
+
+# IDE/editor specific folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files and swap files
+*.swp
+*.swo
+*~
